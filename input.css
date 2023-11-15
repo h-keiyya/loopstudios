@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+	background: url('images/desktop/image-hero.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1,
+a {
+	font-family: 'Alata', sans-serif;
+}
